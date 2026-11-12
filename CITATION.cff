@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite this software and the accompanying manuscript when using this code."
+title: "Compact Identity-Response Representations for Oracle Bone Character Image Retrieval"
+type: software
+version: 0.1.0
+date-released: '2026-11-12'
+license: MIT
+authors:
+  - family-names: Zhou
+    given-names: Jie
+  - family-names: Lu
+    given-names: Zhonglin
+  - family-names: Bi
+    given-names: Junfeng
+abstract: "Frozen image-to-retrieval inference, training-supported identity responses, and exact-tie complete-gallery evaluation for oracle bone character images."
+keywords:
+  - oracle bone inscriptions
+  - image retrieval
+  - identity responses
+  - class-balanced evaluation
+repository-code: "https://github.com/Purepure-maker/oracle-bone-identity-response"

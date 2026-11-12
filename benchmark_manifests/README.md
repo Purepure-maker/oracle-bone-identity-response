@@ -1,0 +1,1 @@
+Extract benchmark_manifests/ from the matching Online Resource 4 asset package. These row-ordered manifests identify the original provider images and their SHA-256 checks; obtain images from the dataset providers. Do not generate replacement benchmark membership from the Test images. A new user query may use a custom manifest with only path and key; see the main README.

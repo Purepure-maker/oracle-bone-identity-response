@@ -1,0 +1,17 @@
+{
+  "state": "PASS_GPU_FROZEN_IMAGE_PIPELINE",
+  "OBC_fixed_Val_probes": 32,
+  "OBC_visual_max_error": 4.470348358154297e-08,
+  "OBC_current_identity_max_error": 1.7881393432617188e-06,
+  "HWOBC_fixed_Val_probes": 8,
+  "HWOBC_visual_max_error": 0.0,
+  "HWOBC_identity_max_error": 0.0,
+  "frozen_model_state_sha256": "2eed4193c2910650184ff5895d723fd301e8baf676e61ebebdefaa11c7a44b65",
+  "shipping_OBC_prototype_content_matches": true,
+  "runtime": {
+    "torch": "2.6.0+cu124",
+    "numpy": "2.2.6"
+  },
+  "public_repository_published": false,
+  "all_original_inputs_unchanged": true
+}

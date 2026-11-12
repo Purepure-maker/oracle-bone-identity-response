@@ -1,0 +1,8 @@
+{
+  "original_prototype_archive_sha256": "316f3caa51abec568f1597b77141df70de6c1ad01ae7c88c9045ec76ad3af784",
+  "means_and_class_order_unchanged": true,
+  "removed_field": "Legacy probe_profile used square-root probabilities at0.05; it was not the final0.025 mapping and was not used by the final Test worker",
+  "current_reference": "Original frozen32 Val visual probes; responses recomputed using the already locked final finite-precision route in batches8",
+  "reference_sha256": "1271539e4a53b58157167d9eced4514f11b01093df10d71be02a27e6ed929801",
+  "original_images_included": false
+}

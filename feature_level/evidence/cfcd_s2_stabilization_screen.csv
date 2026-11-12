@@ -1,0 +1,6 @@
+condition,local_weight,match_normalization,updates,effective_rank_fixed_985_Val_subset,Query_mAP_proxy_percent_fixed_985_Val_subset
+S1 initialization,--,--,0,113.82,60.12
+A: original sum,1.0,No,2000,2.1,1.32
+B: weight control,0.05,No,2000,77.98,56.2
+C: normalization control,1.0,Yes,2000,77.57,56.41
+D: combined control,0.05,Yes,2000,79.34,56.7

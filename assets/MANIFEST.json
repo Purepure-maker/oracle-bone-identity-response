@@ -1,0 +1,36 @@
+{
+  "status": "REFERENCE_MANIFEST_FOR_SEPARATELY_DISTRIBUTED_ASSETS",
+  "scope": "Frozen seed42 image encoding and retrieval; no original images, optimizer states, access helpers or credentials",
+  "original_source_sha256": {
+    "global_checkpoint": "fdfa9b54997e2af8b99be67b09ac05988fe23d177cbd671a5c0af9886cdd92d1",
+    "auxiliary_checkpoint": "a901b6bce800b6de4a948fa936666252e75e1209860d200978ae96be1b4a6a12",
+    "geometry": "4d0c7698bddf26f7f3cd92894826a8b132098053381d0694526a85e26caa1d2d",
+    "OBC_prototypes": "316f3caa51abec568f1597b77141df70de6c1ad01ae7c88c9045ec76ad3af784",
+    "HWOBC_Train_prototypes": "0140de846365ef51aec192ff4606dd511baa308d5e3f0c3016fa850dd96ef826"
+  },
+  "assets": {
+    "geometry_s42.npz": {
+      "sha256": "4d0c7698bddf26f7f3cd92894826a8b132098053381d0694526a85e26caa1d2d",
+      "bytes": 6559498
+    },
+    "prototypes_hwobc_train.npz": {
+      "sha256": "0140de846365ef51aec192ff4606dd511baa308d5e3f0c3016fa850dd96ef826",
+      "bytes": 10044790
+    },
+    "prototypes_obc_s42.npz": {
+      "sha256": "8ba541e4dd41d44b0689dcd946d0d3721685518a60483c946e79be9284428393",
+      "bytes": 716809
+    },
+    "global_s1_state.pt": {
+      "sha256": "3460423c45438834448f4209f7bb1ef125be1b4b34ad339ef543da53d6bbf670",
+      "bytes": 99133430
+    },
+    "auxiliary_s42_state.pt": {
+      "sha256": "bcdd07874355f7471dc3c5c67fdd7cc2a2012772fceb0e56193c01c4f419dc9c",
+      "bytes": 60616014
+    }
+  },
+  "OBC_probability_route": "Pinned replay uses L2-normalized softmax at temperature0.05, algebraically equivalent to square-root softmax at0.025; retain finite-precision route for published-cache agreement",
+  "HWOBC_probability_route": "Direct float32 square-root softmax at temperature0.025",
+  "prototype_export_note": "Only deployed prototype fields are retained; legacy diagnostic profile moved out of the exported asset. Means and identity order are unchanged."
+}

@@ -1,0 +1,40 @@
+{
+  "release_status": "Author-review candidate; no external repository published",
+  "coverage": "Post-encoder geometry, support prototypes, identity response encoding, exact-tie complete-gallery evaluation and released numerical evidence",
+  "excluded": [
+    "Image-encoder training and original checkpoints",
+    "Original dataset images",
+    "Server connection/control code"
+  ],
+  "inherited_code": {
+    "geometry.py": {
+      "sha256": "d013a3535b1cb7702d5128025df0215366519d0eef788431484bae0e1ed0edbb",
+      "role": "Exact archived global calibration implementation"
+    },
+    "evaluation.py": {
+      "sha256": "3b6c65c736bd5601ca4ee302f24047a7b0d4b8f8c1879f3d826a598c104c7235",
+      "role": "Exact archived complete-gallery expected-tie evaluator"
+    }
+  },
+  "evidence_sha256": {
+    "test_three_seed_paired_readouts.csv": "72d64ae1d588ceac307e3344963d4b9164459cd32b3b4e6aae9cbed66148c3c2",
+    "test_three_seed_class_AP.csv": "bfef3c94bb764970b2c908d03bdd763e2eba1761a4ded3b61decf3d592c1a28d",
+    "test_all265_class_AP.csv": "5aa915da0b12f087d7b4ee5f72a325101c15dccd2cea77c993fcf03698d4d0e1",
+    "train_all277_support_counts.csv": "49002dcf084f17838b95b42bbd03bfb40b3b947ecb267a3c064efeebd217132b",
+    "support_all25_results.csv": "300fec714ad9c54d15c11f3c5e5b424f9a920a48c7319afc7dcf3d8a8c02058c",
+    "ce_classifier_vs_support_val.csv": "6a052ad5e7039280430020baed72688f795391ff8e9b9344347c672c07e807a7",
+    "final_15_Test_conditions.csv": "015458359451b77f51c326bb6d70cb07e99116fb544df208e1dc7e73a6642085",
+    "historical_18_Test_conditions.csv": "fd5710e5ba5bfef538cf6338e945c41699a19e362c87a591d37ac9f84b653d48",
+    "cfcd_s2_stabilization_screen.csv": "9ab6dc17293dd89481d154a00a7be6eddc9ba197d09bba95dd55c7a30146762b",
+    "cfcd_s2_matched_continuation_Val.csv": "b3f8c22ab15bd7abe2175d331db7c1697cc8c1efd4c20cdb11ab6bd771d75ada"
+  },
+  "additional_fixed_protocol_HWOBC_Test": {
+    "date": "2026-11-12",
+    "new_training": 0,
+    "evidence_files": {
+      "HWOBC_Test_summary.json": "69497a0fa1b4416778a9eed1ec54264782f1a6eb6790947afdef987e06cb34d0",
+      "HWOBC_Test_verification.json": "628e281687c836424db6be636c539a683f4656c410d8c85677389671e2d272a5",
+      "HWOBC_Test_readouts.csv": "0065b0496926284c6e4588caefe663c2f81447f3573d979004c06b36b2e65e19"
+    }
+  }
+}

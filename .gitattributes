@@ -1,0 +1,2 @@
+# Retain exact source bytes for the recorded provenance and mapping fingerprints.
+* -text

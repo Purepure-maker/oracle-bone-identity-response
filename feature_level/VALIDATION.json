@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "python": "3.13.0",
+  "numpy": "2.4.6",
+  "scipy": "1.17.1",
+  "semantic_tests": 6,
+  "archived_HWOBC_Val_response_probes": 256,
+  "response_max_absolute_error": 2.086162567138672e-06,
+  "probe_scope": "Historical ranking-adapted HWOBC Val cache only, not the current no-AP method and not Test",
+  "new_image_forwards": 0,
+  "new_training": 0,
+  "new_Test_evaluations": 0,
+  "feature_level_only": true,
+  "archived_full_gallery_replay": {
+    "gallery_images": 7530,
+    "queries": 7298,
+    "classes": 3649,
+    "max_absolute_metric_error": 0.0,
+    "scope": "Historical ranking-adapted HWOBC Val stored descriptors; not new Test or current no-AP inference",
+    "seconds": 81.92706679995172
+  },
+  "CLI_end_to_end": {
+    "commands_passed": 7,
+    "scope": "Synthetic known-shape Train-only geometry/prototypes and separate gallery; verifies data interfaces, not empirical performance",
+    "gallery_images": 8,
+    "identities": 4
+  }
+}

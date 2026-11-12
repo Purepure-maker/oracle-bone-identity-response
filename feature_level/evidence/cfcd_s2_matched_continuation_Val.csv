@@ -1,0 +1,4 @@
+condition,Query_mAP_percent_complete_Val,Class_mAP_percent_complete_Val,global_effective_rank_128_Train_probes,continuation_updates
+S1,80.12465129315788,52.241863920748244,49.453,0
+C0,79.42118633701398,52.68549161363703,48.9209,1024
+C1,79.43210373816449,52.697538707965045,48.9186,1024

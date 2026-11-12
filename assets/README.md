@@ -1,0 +1,1 @@
+Frozen model files are distributed separately in Online Resource 4 (ESM_4.zip / frozen_assets_and_manifests.zip). Extract its assets/ and benchmark_manifests/ directories into the repository root. MANIFEST.json records the required filenames, sizes and SHA-256 checks. This source repository does not contain model weights, image bytes or benchmark image lists.

@@ -1,0 +1,47 @@
+{
+  "status": "PASS_CPU_FUNCTIONAL_AND_GPU_FIXED_PROBE_PARITY",
+  "runtime": {
+    "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+    "torch": "2.6.0+cpu",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1",
+    "cv2": "4.13.0",
+    "device": "CPU on Windows"
+  },
+  "original_images_in_release": false,
+  "fixed_Val_image_probes": 32,
+  "frozen_model_state_matches_archived": true,
+  "asset_hashes_verified": true,
+  "CFCD_vendor_hashes_verified": true,
+  "image_to_visual_max_difference_from_GPU_reference": 0.0002571847289800644,
+  "image_to_identity_max_difference_from_current_GPU_reference": 0.0023170113563537598,
+  "self_exclusion_retrieval_queries": 32,
+  "independently_encoded_query_top1_matches_same_image": true,
+  "incompatible_mapping_rejected": true,
+  "complete_small_gallery_evaluation_independent_AP_max_error": 0.0,
+  "small_gallery_is_a_functional_test_not_a_paper_result": true,
+  "GPU_numerical_parity": "PASS on fixed32 OBC Val and8 HWOBC Val image probes; no fresh complete-Test pixel replay claimed",
+  "scope": "Archived frozen inference validation from the manuscript resources; see RELEASE_VALIDATION.json for this repository export.",
+  "GPU_fixed_probe_verification": {
+    "state": "PASS_GPU_FROZEN_IMAGE_PIPELINE",
+    "OBC_fixed_Val_probes": 32,
+    "OBC_visual_max_error": 4.470348358154297e-08,
+    "OBC_current_identity_max_error": 1.7881393432617188e-06,
+    "HWOBC_fixed_Val_probes": 8,
+    "HWOBC_visual_max_error": 0.0,
+    "HWOBC_identity_max_error": 0.0,
+    "frozen_model_state_sha256": "2eed4193c2910650184ff5895d723fd301e8baf676e61ebebdefaa11c7a44b65",
+    "shipping_OBC_prototype_content_matches": true,
+    "runtime": {
+      "torch": "2.6.0+cu124",
+      "numpy": "2.2.6"
+    },
+    "public_repository_published": false,
+    "all_original_inputs_unchanged": true
+  },
+  "delivered_previous_archive_unpack_test": {
+    "status": "PASS",
+    "standalone_image_encoding": true,
+    "independent_query_retrieval": true
+  }
+}

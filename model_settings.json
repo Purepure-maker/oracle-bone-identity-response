@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "image_size": 512,
+  "top_tokens": 24,
+  "token_dim": 64,
+  "local_dim": 128,
+  "fusion_alpha": 0.25
+}
