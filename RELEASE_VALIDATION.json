@@ -1,6 +1,6 @@
 {
   "state": "PASS",
-  "scope": "source-only public repository export",
+  "scope": "Public frozen inference, evaluation and fixed-panel numerical replay",
   "tests": {
     "feature_level": {
       "passed": 6,
@@ -68,5 +68,23 @@
     "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
     "numpy": "2.4.6"
   },
-  "CI_scope": "Hosted feature-only tests configured for Python3.10 and3.13; see GitHub Actions for execution status."
+  "CI_scope": "Hosted Python3.10 and3.13 checks include all tests and complete fixed-panel numerical replay; run status is recorded with the release receipt",
+  "version": "0.2.0",
+  "followup_tests": {
+    "local_feature_level": 6,
+    "local_release_and_robustness": 8,
+    "failed": 0,
+    "all28_public_aggregates_and_intervals_replayed": true,
+    "new_inference_runner": "Component controls and CLI checked; no new full-panel pixel experiment"
+  },
+  "robustness_evidence": {
+    "state": "PASS",
+    "comparisons": 28,
+    "query_count": 3345,
+    "class_count": 258,
+    "gallery_images": 30810,
+    "max_aggregate_error": 0.0,
+    "all_plotted_intervals_verified": true,
+    "scope": "Numerical evidence replay; fixed trained model and development-Val query panel"
+  }
 }

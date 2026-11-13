@@ -13,8 +13,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install -r requirements.txt "opencv-python-headless>=4.8,<5"
       - run: python -m unittest discover -s feature_level/tests -v
       - run: python -m unittest discover -s tests -v
       - run: python examples/synthetic_demo.py --output demo_output
       - run: python feature_level/reproduce.py table-summary --output table_summary.json
+      - run: python -m robustness.replay --output robustness_replay.json

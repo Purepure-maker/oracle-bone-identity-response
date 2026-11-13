@@ -77,6 +77,19 @@ The archived GPU probe checks cover 32 OBC Val images and eight HWOBC Val images
 
 This release covers frozen inference and evaluation. Full encoder and baseline training pipelines, original dataset images, private manuscripts, server helpers and authentication data are outside the repository. The paper's model states and full benchmark manifests are supplied separately in Online Resource 4.
 
+
+## Query perturbation study
+
+The fixed development-Val study in Section 5.7 uses 3,345 queries from 258 identities against an unchanged clean gallery of 30,810 images. All seven conditions and four readouts are retained. [Study instructions](robustness/README.md) provide the perturbation definitions, an image-inference entry point, and the numerical evidence behind Figure 6 and Table S23.
+
+The released per-query metrics reproduce all 28 aggregate results and the plotted pointwise intervals without images or model files:
+
+```bash
+python -m robustness.replay --output robustness_replay.json
+```
+
+This source release is version **v0.2.0**. Frozen model files and full image manifests remain in Online Resource 4; original images are obtained from the dataset providers.
+
 ## Citation
 
 See `CITATION.cff`. The manuscript is unpublished; no acceptance, DOI or publication venue is asserted. Project code is MIT-licensed; third-party software keeps its original notices.

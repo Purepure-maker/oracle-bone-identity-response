@@ -2,8 +2,8 @@ cff-version: 1.2.0
 message: "Please cite this software and the accompanying manuscript when using this code."
 title: "Compact Identity-Response Representations for Oracle Bone Character Image Retrieval"
 type: software
-version: 0.1.0
-date-released: '2026-11-12'
+version: 0.2.0
+date-released: '2026-11-13'
 license: MIT
 authors:
   - family-names: Zhou

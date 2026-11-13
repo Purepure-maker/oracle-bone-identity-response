@@ -1,0 +1,80 @@
+{
+  "protocol_id": "paper-a-visual-robustness-20261113-v1",
+  "created_utc": "2026-11-12T17:14:11.295525+00:00",
+  "model": "Frozen seed42 CFCD-S1 global plus trained auxiliary128; no training or parameter selection",
+  "dataset": "OBC306 development Val only",
+  "gallery": {
+    "split": "Val",
+    "images": 30810,
+    "classes": 258,
+    "condition": "clean original gallery, unchanged across corruptions"
+  },
+  "queries": {
+    "selection": "Within every Val identity with another relevant gallery image, order image keys by SHA256(salt+key), take at most16; retain original Val row order",
+    "cap_per_class": 16,
+    "salt": "paper-a-robustness-val-v1|",
+    "sampling": "deterministic class-stratified query panel, not full-Val-query evaluation",
+    "self_exclusion": "exclude original clean image key for every transformed query"
+  },
+  "conditions": [
+    {
+      "name": "clean",
+      "family": "clean",
+      "severity": 0
+    },
+    {
+      "name": "downsample_075",
+      "family": "downsample",
+      "severity": 0.75
+    },
+    {
+      "name": "downsample_050",
+      "family": "downsample",
+      "severity": 0.5
+    },
+    {
+      "name": "blur_035",
+      "family": "blur",
+      "severity": 0.35
+    },
+    {
+      "name": "blur_070",
+      "family": "blur",
+      "severity": 0.7
+    },
+    {
+      "name": "margin_010",
+      "family": "asymmetric_margin",
+      "severity": 0.1
+    },
+    {
+      "name": "margin_020",
+      "family": "asymmetric_margin",
+      "severity": 0.2
+    }
+  ],
+  "corruption_definition": {
+    "downsample": "resize native image by ratio using area interpolation; subsequent original model preprocessing unchanged",
+    "blur": "native-pixel isotropic Gaussian blur at stated sigma with reflected border",
+    "asymmetric_margin": "prepend left and top margins proportional to original width and height; fill with per-channel median native border; retain all original pixels; combines placement and context changes, not a pure-translation claim"
+  },
+  "arms": [
+    "global512",
+    "raw_fusion640",
+    "calibrated_visual640",
+    "identity277"
+  ],
+  "primary_metrics": [
+    "class-balanced panel mAP",
+    "class-balanced panel Hit@1"
+  ],
+  "secondary_metrics": [
+    "query-panel mAP",
+    "query-panel Hit@1",
+    "changes from the same clean panel"
+  ],
+  "evaluation": "float32 stored descriptors -> FP64 normalization and direct squared Euclidean distances; exact-tie expected AP and Hit@1; complete clean gallery; matched self exclusion",
+  "uncertainty": "paired identity bootstrap, 2000 draws, seed20261113; conditions on fixed model, fixed query panel and gallery; no full-training-randomness claim",
+  "paper_location": "Section 5.7; Figure 6; Supplement R and Table S23",
+  "archived_protocol_sha256": "4fb6080a8625c493c65baf579ed5b6860860656e13cb573a583315c50ebba37e"
+}

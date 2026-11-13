@@ -1,0 +1,9 @@
+{
+  "source": "Verified frozen Val perturbation study; aggregates replayed from per-query records",
+  "original_summary_sha256": "dc69fb7b7125cea4df582eab997c30e0b09f0df68f38d4450eb4561e3efb5aa4",
+  "original_study_module_sha256": {
+    "corruptions.py": "c08df89da1a3f8fbb7ca8a82483c3edc709aad736673e921070447cfd137e99d",
+    "rectangular_evaluation.py": "2d3c12ef7a46179e8dad0fd8a542cb9e22dad6b6e45ebefeb71fa383f3d3b26b"
+  },
+  "format": "CSV AP/Hit1 are fractions; Class_mAP_and_CI.csv uses percent; no original images or model states"
+}

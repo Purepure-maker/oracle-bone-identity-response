@@ -29,3 +29,14 @@ python reproduce_images.py evaluate --gallery outputs/OBC_Test --readout identit
 完整用法、新查询格式、数值路线、指标和复现范围见英文README。OBC输出277维；HWOBC以目标Train原型形成3881维，保留相同视觉与几何资产。查询编码不输入真实身份标签，完整图库评价另行读取类别前缀。
 
 本次发布覆盖冻结模型推理与评价，并保留特征级复现；全部从零训练流程不在此包内。归档GPU数值核验覆盖32张OBC Val和8张HWOBC Val探针，不等同于在每个新环境重跑完整Test。
+
+## 查询扰动实验
+
+第5.7节使用固定的3,345张、258类开发Val查询，与30,810张干净图库比较。全部7个条件、4种读出及对应逐查询数值已公开；[实验说明](robustness/README.md)提供扰动定义、图像推理入口和图6/表S23的数值重放。
+
+```bash
+python -m robustness.replay --output robustness_replay.json
+```
+
+该命令不需要图像或权重，可重新计算全部28组汇总结果和图中区间。当前代码版本为v0.2.0；冻结权重和完整图像清单仍由Online Resource 4提供。
+

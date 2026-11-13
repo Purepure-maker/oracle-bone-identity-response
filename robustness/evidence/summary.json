@@ -1,0 +1,1103 @@
+{
+  "state": "COMPLETE",
+  "query_panel_images": 3345,
+  "query_classes": 258,
+  "gallery_images": 30810,
+  "optimizer_updates": 0,
+  "new_Test_evaluations": 0,
+  "scope": "Frozen seed42; fixed class-stratified development-Val query panel; complete clean gallery",
+  "results": [
+    {
+      "condition": {
+        "name": "clean",
+        "family": "clean",
+        "severity": 0
+      },
+      "arm": "global512",
+      "metrics": {
+        "PanelQuery_AP": 0.6035801388123323,
+        "PanelQuery_Hit1": 0.7491778774289986,
+        "PanelQuery_AP_hash": 0.6035801388123323,
+        "PanelQuery_Hit1_hash": 0.7491778774289986,
+        "Class_AP": 0.5266569073645043,
+        "Class_Hit1": 0.6598006698297396,
+        "Class_AP_hash": 0.5266569073645043,
+        "Class_Hit1_hash": 0.6598006698297396,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "clean",
+        "family": "clean",
+        "severity": 0
+      },
+      "arm": "raw_fusion640",
+      "metrics": {
+        "PanelQuery_AP": 0.6472769050499741,
+        "PanelQuery_Hit1": 0.7862481315396114,
+        "PanelQuery_AP_hash": 0.6472769050499741,
+        "PanelQuery_Hit1_hash": 0.7862481315396114,
+        "Class_AP": 0.5703552762240528,
+        "Class_Hit1": 0.697206615520569,
+        "Class_AP_hash": 0.5703552762240528,
+        "Class_Hit1_hash": 0.697206615520569,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "clean",
+        "family": "clean",
+        "severity": 0
+      },
+      "arm": "calibrated_visual640",
+      "metrics": {
+        "PanelQuery_AP": 0.669213847064241,
+        "PanelQuery_Hit1": 0.8,
+        "PanelQuery_AP_hash": 0.669213847064241,
+        "PanelQuery_Hit1_hash": 0.8,
+        "Class_AP": 0.5915654342695357,
+        "Class_Hit1": 0.709315119634887,
+        "Class_AP_hash": 0.5915654342695357,
+        "Class_Hit1_hash": 0.709315119634887,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "clean",
+        "family": "clean",
+        "severity": 0
+      },
+      "arm": "identity277",
+      "metrics": {
+        "PanelQuery_AP": 0.7865751781770964,
+        "PanelQuery_Hit1": 0.8170403587443946,
+        "PanelQuery_AP_hash": 0.7865751781770964,
+        "PanelQuery_Hit1_hash": 0.8170403587443946,
+        "Class_AP": 0.7291230089876681,
+        "Class_Hit1": 0.752767500587268,
+        "Class_AP_hash": 0.7291230089876681,
+        "Class_Hit1_hash": 0.752767500587268,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.0,
+          "CI95_pp": [
+            0.0,
+            0.0
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_075",
+        "family": "downsample",
+        "severity": 0.75
+      },
+      "arm": "global512",
+      "metrics": {
+        "PanelQuery_AP": 0.5841677390854793,
+        "PanelQuery_Hit1": 0.7261584454409566,
+        "PanelQuery_AP_hash": 0.5841677390854793,
+        "PanelQuery_Hit1_hash": 0.7261584454409566,
+        "Class_AP": 0.5091994494788358,
+        "Class_Hit1": 0.6368042003216421,
+        "Class_AP_hash": 0.5091994494788358,
+        "Class_Hit1_hash": 0.6368042003216421,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.7457457885668448,
+          "CI95_pp": [
+            -2.178742681125646,
+            -1.319090549156584
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -2.2996469508097417,
+          "CI95_pp": [
+            -3.322755033510847,
+            -1.3309725508126682
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_075",
+        "family": "downsample",
+        "severity": 0.75
+      },
+      "arm": "raw_fusion640",
+      "metrics": {
+        "PanelQuery_AP": 0.6274149723609789,
+        "PanelQuery_Hit1": 0.76203288490284,
+        "PanelQuery_AP_hash": 0.6274149723609789,
+        "PanelQuery_Hit1_hash": 0.76203288490284,
+        "Class_AP": 0.5532482053653909,
+        "Class_Hit1": 0.6761287646462065,
+        "Class_AP_hash": 0.5532482053653909,
+        "Class_Hit1_hash": 0.6761287646462065,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.710707085866189,
+          "CI95_pp": [
+            -2.12094114772547,
+            -1.2655061050723295
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -2.10778508743625,
+          "CI95_pp": [
+            -3.0988237241870964,
+            -1.1405508654781915
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_075",
+        "family": "downsample",
+        "severity": 0.75
+      },
+      "arm": "calibrated_visual640",
+      "metrics": {
+        "PanelQuery_AP": 0.6527157965200321,
+        "PanelQuery_Hit1": 0.7868460388639761,
+        "PanelQuery_AP_hash": 0.6527157965200321,
+        "PanelQuery_Hit1_hash": 0.7868460388639761,
+        "Class_AP": 0.5765618973281809,
+        "Class_Hit1": 0.6993417542836148,
+        "Class_AP_hash": 0.5765618973281809,
+        "Class_Hit1_hash": 0.6993417542836148,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.500353694135482,
+          "CI95_pp": [
+            -1.8406592115553448,
+            -1.1702917125896959
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -0.9973365351272325,
+          "CI95_pp": [
+            -1.9902794234189582,
+            -0.044009903748278595
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_075",
+        "family": "downsample",
+        "severity": 0.75
+      },
+      "arm": "identity277",
+      "metrics": {
+        "PanelQuery_AP": 0.7722991902409709,
+        "PanelQuery_Hit1": 0.8038863976083707,
+        "PanelQuery_AP_hash": 0.7722991902409709,
+        "PanelQuery_Hit1_hash": 0.8038863976083707,
+        "Class_AP": 0.7131388929036383,
+        "Class_Hit1": 0.7404925339518363,
+        "Class_AP_hash": 0.7131388929036383,
+        "Class_Hit1_hash": 0.7404925339518363,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.5984116084029782,
+          "CI95_pp": [
+            -2.3288442525034694,
+            -0.9199026316454716
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -1.227496663543175,
+          "CI95_pp": [
+            -2.3966383126993596,
+            -0.008193545257501458
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_050",
+        "family": "downsample",
+        "severity": 0.5
+      },
+      "arm": "global512",
+      "metrics": {
+        "PanelQuery_AP": 0.509940017721192,
+        "PanelQuery_Hit1": 0.6373692077727953,
+        "PanelQuery_AP_hash": 0.509940017721192,
+        "PanelQuery_Hit1_hash": 0.6373692077727953,
+        "Class_AP": 0.4417236375130635,
+        "Class_Hit1": 0.5565113557846116,
+        "Class_AP_hash": 0.4417236375130635,
+        "Class_Hit1_hash": 0.5565113557846116,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -8.493326985144076,
+          "CI95_pp": [
+            -9.401263055926364,
+            -7.581372271116366
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -10.328931404512801,
+          "CI95_pp": [
+            -11.815690688510456,
+            -8.85315693673252
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_050",
+        "family": "downsample",
+        "severity": 0.5
+      },
+      "arm": "raw_fusion640",
+      "metrics": {
+        "PanelQuery_AP": 0.5536719503534799,
+        "PanelQuery_Hit1": 0.6825112107623318,
+        "PanelQuery_AP_hash": 0.5536719503534799,
+        "PanelQuery_Hit1_hash": 0.6825112107623318,
+        "Class_AP": 0.4839023608848014,
+        "Class_Hit1": 0.5992982469726655,
+        "Class_AP_hash": 0.4839023608848014,
+        "Class_Hit1_hash": 0.5992982469726655,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -8.645291533925143,
+          "CI95_pp": [
+            -9.563239914707722,
+            -7.75303735629755
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -9.790836854790342,
+          "CI95_pp": [
+            -11.328709498404264,
+            -8.345958856496647
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_050",
+        "family": "downsample",
+        "severity": 0.5
+      },
+      "arm": "calibrated_visual640",
+      "metrics": {
+        "PanelQuery_AP": 0.5882011660418506,
+        "PanelQuery_Hit1": 0.7174887892376681,
+        "PanelQuery_AP_hash": 0.5882011660418506,
+        "PanelQuery_Hit1_hash": 0.7174887892376681,
+        "Class_AP": 0.51769611824107,
+        "Class_Hit1": 0.6337559780873734,
+        "Class_AP_hash": 0.51769611824107,
+        "Class_Hit1_hash": 0.6337559780873734,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -7.386931602846572,
+          "CI95_pp": [
+            -8.272739212231684,
+            -6.500022217881645
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -7.555914154751364,
+          "CI95_pp": [
+            -9.071360285386449,
+            -6.038075001011049
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "downsample_050",
+        "family": "downsample",
+        "severity": 0.5
+      },
+      "arm": "identity277",
+      "metrics": {
+        "PanelQuery_AP": 0.7130206729310209,
+        "PanelQuery_Hit1": 0.7255605381165919,
+        "PanelQuery_AP_hash": 0.7130206729310209,
+        "PanelQuery_Hit1_hash": 0.7255605381165919,
+        "Class_AP": 0.6552666697362304,
+        "Class_Hit1": 0.665839705083891,
+        "Class_AP_hash": 0.6552666697362304,
+        "Class_Hit1_hash": 0.665839705083891,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -7.385633925143771,
+          "CI95_pp": [
+            -8.634398411780781,
+            -6.16053285969598
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -8.69277955033769,
+          "CI95_pp": [
+            -10.30680056915522,
+            -7.06009350522432
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_035",
+        "family": "blur",
+        "severity": 0.35
+      },
+      "arm": "global512",
+      "metrics": {
+        "PanelQuery_AP": 0.6036450621219169,
+        "PanelQuery_Hit1": 0.7494768310911809,
+        "PanelQuery_AP_hash": 0.6036450621219169,
+        "PanelQuery_Hit1_hash": 0.7494768310911809,
+        "Class_AP": 0.526909323376233,
+        "Class_Hit1": 0.6599646154878713,
+        "Class_AP_hash": 0.526909323376233,
+        "Class_Hit1_hash": 0.6599646154878713,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.025241601172872215,
+          "CI95_pp": [
+            -0.015058677162393827,
+            0.07011714643446726
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.01639456581317048,
+          "CI95_pp": [
+            -0.17764857881136942,
+            0.20480972515856236
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_035",
+        "family": "blur",
+        "severity": 0.35
+      },
+      "arm": "raw_fusion640",
+      "metrics": {
+        "PanelQuery_AP": 0.6469159507167336,
+        "PanelQuery_Hit1": 0.7853512705530643,
+        "PanelQuery_AP_hash": 0.6469159507167336,
+        "PanelQuery_Hit1_hash": 0.7853512705530643,
+        "Class_AP": 0.5699781667783653,
+        "Class_Hit1": 0.6968028687505433,
+        "Class_AP_hash": 0.5699781667783653,
+        "Class_Hit1_hash": 0.6968028687505433,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -0.037710944568745304,
+          "CI95_pp": [
+            -0.08202039163442718,
+            0.003141869133477382
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -0.040374677002583986,
+          "CI95_pp": [
+            -0.26647286821705424,
+            0.1857235142118863
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_035",
+        "family": "blur",
+        "severity": 0.35
+      },
+      "arm": "calibrated_visual640",
+      "metrics": {
+        "PanelQuery_AP": 0.669188069994504,
+        "PanelQuery_Hit1": 0.8020926756352765,
+        "PanelQuery_AP_hash": 0.669188069994504,
+        "PanelQuery_Hit1_hash": 0.8020926756352765,
+        "Class_AP": 0.5918513191459295,
+        "Class_Hit1": 0.7127281256641722,
+        "Class_AP_hash": 0.5918513191459295,
+        "Class_Hit1_hash": 0.7127281256641722,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.028588487639373335,
+          "CI95_pp": [
+            -0.04026281368355763,
+            0.10433813257852563
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.34130060292850994,
+          "CI95_pp": [
+            -0.04847268364710216,
+            0.7653769841269842
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_035",
+        "family": "blur",
+        "severity": 0.35
+      },
+      "arm": "identity277",
+      "metrics": {
+        "PanelQuery_AP": 0.7861732705604548,
+        "PanelQuery_Hit1": 0.8170403587443946,
+        "PanelQuery_AP_hash": 0.7861732705604548,
+        "PanelQuery_Hit1_hash": 0.8170403587443946,
+        "Class_AP": 0.729007232518069,
+        "Class_Hit1": 0.7527169804786084,
+        "Class_AP_hash": 0.729007232518069,
+        "Class_Hit1_hash": 0.7527169804786084,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -0.01157764695992036,
+          "CI95_pp": [
+            -0.11932306440321443,
+            0.09674660722961616
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -0.005052010865964379,
+          "CI95_pp": [
+            -0.3711561236997283,
+            0.37641621943947523
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_070",
+        "family": "blur",
+        "severity": 0.7
+      },
+      "arm": "global512",
+      "metrics": {
+        "PanelQuery_AP": 0.5908847623508612,
+        "PanelQuery_Hit1": 0.7369207772795217,
+        "PanelQuery_AP_hash": 0.5908847623508612,
+        "PanelQuery_Hit1_hash": 0.7369207772795217,
+        "Class_AP": 0.5141174397437976,
+        "Class_Hit1": 0.6441004893039777,
+        "Class_AP_hash": 0.5141174397437976,
+        "Class_Hit1_hash": 0.6441004893039777,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.253946762070666,
+          "CI95_pp": [
+            -1.689794237395785,
+            -0.8370025851922579
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -1.5700180525761924,
+          "CI95_pp": [
+            -2.562581246810898,
+            -0.642018618762805
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_070",
+        "family": "blur",
+        "severity": 0.7
+      },
+      "arm": "raw_fusion640",
+      "metrics": {
+        "PanelQuery_AP": 0.6344184063761625,
+        "PanelQuery_Hit1": 0.7739910313901345,
+        "PanelQuery_AP_hash": 0.6344184063761625,
+        "PanelQuery_Hit1_hash": 0.7739910313901345,
+        "Class_AP": 0.5586986506595616,
+        "Class_Hit1": 0.6861176506525344,
+        "Class_AP_hash": 0.5586986506595616,
+        "Class_Hit1_hash": 0.6861176506525344,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.1656625564491192,
+          "CI95_pp": [
+            -1.6020638362296267,
+            -0.7072182598759177
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -1.1088964868034634,
+          "CI95_pp": [
+            -2.1202933721102326,
+            -0.13884536813315929
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_070",
+        "family": "blur",
+        "severity": 0.7
+      },
+      "arm": "calibrated_visual640",
+      "metrics": {
+        "PanelQuery_AP": 0.6585559415850493,
+        "PanelQuery_Hit1": 0.8,
+        "PanelQuery_AP_hash": 0.6585559415850493,
+        "PanelQuery_Hit1_hash": 0.8,
+        "Class_AP": 0.5817538430999109,
+        "Class_Hit1": 0.7157445859480742,
+        "Class_AP_hash": 0.5817538430999109,
+        "Class_Hit1_hash": 0.7157445859480742,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -0.9811591169624896,
+          "CI95_pp": [
+            -1.3797120270019678,
+            -0.6076594064751834
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.6429466313187244,
+          "CI95_pp": [
+            -0.37787726377842656,
+            1.6928577048489835
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "blur_070",
+        "family": "blur",
+        "severity": 0.7
+      },
+      "arm": "identity277",
+      "metrics": {
+        "PanelQuery_AP": 0.7756151859032353,
+        "PanelQuery_Hit1": 0.8062780269058296,
+        "PanelQuery_AP_hash": 0.7756151859032353,
+        "PanelQuery_Hit1_hash": 0.8062780269058296,
+        "Class_AP": 0.7158236853763404,
+        "Class_Hit1": 0.7407938046019441,
+        "Class_AP_hash": 0.7158236853763404,
+        "Class_Hit1_hash": 0.7407938046019441,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.3299323611327851,
+          "CI95_pp": [
+            -2.073287629050364,
+            -0.6128031148305121
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -1.1973695985323891,
+          "CI95_pp": [
+            -2.349030518361914,
+            -0.027841680821332714
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_010",
+        "family": "asymmetric_margin",
+        "severity": 0.1
+      },
+      "arm": "global512",
+      "metrics": {
+        "PanelQuery_AP": 0.6058367148215746,
+        "PanelQuery_Hit1": 0.750373692077728,
+        "PanelQuery_AP_hash": 0.6058367148215746,
+        "PanelQuery_Hit1_hash": 0.750373692077728,
+        "Class_AP": 0.52726569275144,
+        "Class_Hit1": 0.657417076893821,
+        "Class_AP_hash": 0.52726569275144,
+        "Class_Hit1_hash": 0.657417076893821,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.06087853869357465,
+          "CI95_pp": [
+            -0.4916112013661921,
+            0.5657930933035324
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -0.23835929359185157,
+          "CI95_pp": [
+            -1.3885662813715138,
+            0.8504588112146247
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_010",
+        "family": "asymmetric_margin",
+        "severity": 0.1
+      },
+      "arm": "raw_fusion640",
+      "metrics": {
+        "PanelQuery_AP": 0.6483449107872649,
+        "PanelQuery_Hit1": 0.7874439461883408,
+        "PanelQuery_AP_hash": 0.6483449107872649,
+        "PanelQuery_Hit1_hash": 0.7874439461883408,
+        "Class_AP": 0.570683508184227,
+        "Class_Hit1": 0.6963436541924914,
+        "Class_AP_hash": 0.570683508184227,
+        "Class_Hit1_hash": 0.6963436541924914,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.03282319601741902,
+          "CI95_pp": [
+            -0.43251165372698763,
+            0.49890885513564
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -0.08629613280776074,
+          "CI95_pp": [
+            -1.1242816722467885,
+            0.9494143345887529
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_010",
+        "family": "asymmetric_margin",
+        "severity": 0.1
+      },
+      "arm": "calibrated_visual640",
+      "metrics": {
+        "PanelQuery_AP": 0.6673530548305824,
+        "PanelQuery_Hit1": 0.8011958146487295,
+        "PanelQuery_AP_hash": 0.6673530548305824,
+        "PanelQuery_Hit1_hash": 0.8011958146487295,
+        "Class_AP": 0.5927844917666084,
+        "Class_Hit1": 0.7153023279476768,
+        "Class_AP_hash": 0.5927844917666084,
+        "Class_Hit1_hash": 0.7153023279476768,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": 0.12190574970726842,
+          "CI95_pp": [
+            -0.3861464395439608,
+            0.6901986055347369
+          ]
+        },
+        "Hit1": {
+          "mean_pp": 0.5987208312789708,
+          "CI95_pp": [
+            -0.5334859611749145,
+            1.7340566410333853
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_010",
+        "family": "asymmetric_margin",
+        "severity": 0.1
+      },
+      "arm": "identity277",
+      "metrics": {
+        "PanelQuery_AP": 0.7787055260812588,
+        "PanelQuery_Hit1": 0.807473841554559,
+        "PanelQuery_AP_hash": 0.7787055260812588,
+        "PanelQuery_Hit1_hash": 0.807473841554559,
+        "Class_AP": 0.7201004702370607,
+        "Class_Hit1": 0.7440291996978043,
+        "Class_AP_hash": 0.7201004702370607,
+        "Class_Hit1_hash": 0.7440291996978043,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -0.9022538750607425,
+          "CI95_pp": [
+            -1.6867043620780657,
+            -0.1331170598404239
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -0.8738300889463679,
+          "CI95_pp": [
+            -2.105193740368159,
+            0.46082732674302374
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_020",
+        "family": "asymmetric_margin",
+        "severity": 0.2
+      },
+      "arm": "global512",
+      "metrics": {
+        "PanelQuery_AP": 0.5894298288142248,
+        "PanelQuery_Hit1": 0.7225710014947683,
+        "PanelQuery_AP_hash": 0.5894298288142248,
+        "PanelQuery_Hit1_hash": 0.7225710014947683,
+        "Class_AP": 0.5097954115242734,
+        "Class_Hit1": 0.6281748451806591,
+        "Class_AP_hash": 0.5097954115242734,
+        "Class_Hit1_hash": 0.6281748451806591,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.6861495840230813,
+          "CI95_pp": [
+            -2.7040735448860156,
+            -0.7279821810073661
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -3.162582464908046,
+          "CI95_pp": [
+            -4.912877080391615,
+            -1.4607960810722438
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_020",
+        "family": "asymmetric_margin",
+        "severity": 0.2
+      },
+      "arm": "raw_fusion640",
+      "metrics": {
+        "PanelQuery_AP": 0.631541760038035,
+        "PanelQuery_Hit1": 0.7647234678624814,
+        "PanelQuery_AP_hash": 0.631541760038035,
+        "PanelQuery_Hit1_hash": 0.7647234678624814,
+        "Class_AP": 0.5533664617527665,
+        "Class_Hit1": 0.6721533526766085,
+        "Class_AP_hash": 0.5533664617527665,
+        "Class_Hit1_hash": 0.6721533526766085,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.6988814471286209,
+          "CI95_pp": [
+            -2.666627028414898,
+            -0.7831524026646979
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -2.5053262843960518,
+          "CI95_pp": [
+            -4.115473014818945,
+            -0.9916002655828248
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_020",
+        "family": "asymmetric_margin",
+        "severity": 0.2
+      },
+      "arm": "calibrated_visual640",
+      "metrics": {
+        "PanelQuery_AP": 0.649871491119417,
+        "PanelQuery_Hit1": 0.7733931240657698,
+        "PanelQuery_AP_hash": 0.649871491119417,
+        "PanelQuery_Hit1_hash": 0.7733931240657698,
+        "Class_AP": 0.5731346982629065,
+        "Class_Hit1": 0.6858545954476186,
+        "Class_AP_hash": 0.5731346982629065,
+        "Class_Hit1_hash": 0.6858545954476186,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -1.843073600662926,
+          "CI95_pp": [
+            -2.692750491586146,
+            -1.035535538988555
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -2.3460524187268375,
+          "CI95_pp": [
+            -3.8580738006610105,
+            -0.8905070354925007
+          ]
+        }
+      }
+    },
+    {
+      "condition": {
+        "name": "margin_020",
+        "family": "asymmetric_margin",
+        "severity": 0.2
+      },
+      "arm": "identity277",
+      "metrics": {
+        "PanelQuery_AP": 0.764512635355274,
+        "PanelQuery_Hit1": 0.7853512705530643,
+        "PanelQuery_AP_hash": 0.764512635355274,
+        "PanelQuery_Hit1_hash": 0.7853512705530643,
+        "Class_AP": 0.7031651996015867,
+        "Class_Hit1": 0.7168443528908646,
+        "Class_AP_hash": 0.7031651996015867,
+        "Class_Hit1_hash": 0.7168443528908646,
+        "queries": 3345,
+        "classes": 258,
+        "gallery_images": 30810,
+        "self_exclusion": "clean original image key",
+        "query_scope": "fixed class-stratified query panel, not all Val queries"
+      },
+      "changes_from_clean": {
+        "AP": {
+          "mean_pp": -2.5957809386081343,
+          "CI95_pp": [
+            -3.5138028991296686,
+            -1.717668732489593
+          ]
+        },
+        "Hit1": {
+          "mean_pp": -3.59231476964035,
+          "CI95_pp": [
+            -5.115712614259126,
+            -2.0712463543132156
+          ]
+        }
+      }
+    }
+  ]
+}
